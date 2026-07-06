@@ -34,7 +34,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add data/stats.csv
+          git add -f data/stats.csv
 
           git diff --cached --quiet || (
             git commit -m "Auto update Statcast data"

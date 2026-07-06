@@ -4,3 +4,4 @@ __pycache__/
 .streamlit/secrets.toml
 data/*.csv
 !data/.gitkeep
+!data/stats.csv
